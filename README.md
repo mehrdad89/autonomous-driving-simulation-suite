@@ -22,7 +22,7 @@ This project is designed to simulate various driving scenarios using industry-st
   pip (Python package installer)\
   Git (for cloning the repository)
 ## Step 1: Clone the Repository
-`git clone https://github.com/yourusername/autonomous-driving-simulation-suite.git`\
+`git clone https://github.com/mehrdad89/autonomous-driving-simulation-suite.git`\
 `cd autonomous-driving-simulation-suite`
 
 ## Step 2: Install Dependencies
@@ -31,7 +31,7 @@ This project is designed to simulate various driving scenarios using industry-st
 Install and set up your chosen simulation platform (CARLA or LGSVL).\
 Follow the platform’s documentation to ensure it’s correctly configured.
 ## Step 4: Run a Sample Scenario
-`python scripts/run_simulation.py --scenario scenarios/urban_intersection.xosc --network road_netw`
+`python scripts/run_simulation.py --scenario scenarios/urban_intersection.xosc --network road_networks/city_streets.xodr`
 # How to Use the Suite
 ### Running a Simulation
 To run a specific scenario, use the run_simulation.py script with the appropriate scenario and road network files:
@@ -45,7 +45,7 @@ Generate detailed performance reports with:
 `python scripts/generate_report.py --results <results_file> --output <report_file>`
 ### Dashboard Visualization
 Start the dashboard to visualize the results:
-`python scripts/dashboard.py`
+`python scripts/dashboard.py`\
 Navigate to `http://localhost:5000` in your browser to interact with the simulation results.
 
 # Contributing
