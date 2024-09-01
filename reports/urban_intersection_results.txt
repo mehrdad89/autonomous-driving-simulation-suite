@@ -1,0 +1,5 @@
+scenario: scenarios/urban_intersection.xosc
+network: road_networks/city_streets.xodr
+success: True
+reaction_time: 2.463752079870561
+collision: True
