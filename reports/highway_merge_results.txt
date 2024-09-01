@@ -1,0 +1,5 @@
+scenario: scenarios/highway_merge.xosc
+network: road_networks/city_streets.xodr
+success: True
+reaction_time: 0.9051737001227329
+collision: True
